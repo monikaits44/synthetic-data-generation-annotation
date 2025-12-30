@@ -1,0 +1,328 @@
+{
+  "image_path": "output/synthetic_data/generated_images/Flux_20251130_220547_ad88a902_4086006136_img1.png",
+  "image_name": "Flux_20251130_220547_ad88a902_4086006136_img1",
+  "image_size": {
+    "width": 512,
+    "height": 512
+  },
+  "caption_mode": "json",
+  "detection_caption": "A top-down view of a robotics lab with various objects stacked together A traffic_cone, fire_extinguisher, cardbox, pallet, bottle, vase, chair, monitor, plastic_box, shoe, apple, robotic_arm, cup, screw_driver, plier, hammer in a well-lit and organized robotics lab with a concrete floor. Lighting: bright overhead lighting with some soft shadows. Texture: smooth plastic, rough wooden pallet, and soft fabric of the shoe. Material: plastic, wood, leather. Distinct features: . Technical details: .",
+  "num_detections": 15,
+  "detections_before_nms": 16,
+  "detections": [
+    {
+      "detection_id": 1,
+      "class_id": 6,
+      "class_name": "chair",
+      "phrase_detected": "chair",
+      "confidence": 0.5249942541122437,
+      "bbox_xyxy": [
+        328,
+        80,
+        420,
+        241
+      ],
+      "bbox_normalized": [
+        0.73046875,
+        0.3134765625,
+        0.1796875,
+        0.314453125
+      ],
+      "yolo_format": "6 0.730469 0.313477 0.179688 0.314453"
+    },
+    {
+      "detection_id": 12,
+      "class_id": 6,
+      "class_name": "chair",
+      "phrase_detected": "chair",
+      "confidence": 0.38419538736343384,
+      "bbox_xyxy": [
+        368,
+        341,
+        511,
+        510
+      ],
+      "bbox_normalized": [
+        0.8583984375,
+        0.8310546875,
+        0.279296875,
+        0.330078125
+      ],
+      "yolo_format": "6 0.858398 0.831055 0.279297 0.330078"
+    },
+    {
+      "detection_id": 2,
+      "class_id": 10,
+      "class_name": "apple",
+      "phrase_detected": "apple",
+      "confidence": 0.5448392033576965,
+      "bbox_xyxy": [
+        124,
+        434,
+        164,
+        472
+      ],
+      "bbox_normalized": [
+        0.28125,
+        0.884765625,
+        0.078125,
+        0.07421875
+      ],
+      "yolo_format": "10 0.281250 0.884766 0.078125 0.074219"
+    },
+    {
+      "detection_id": 3,
+      "class_id": 9,
+      "class_name": "shoe",
+      "phrase_detected": "shoe",
+      "confidence": 0.37845611572265625,
+      "bbox_xyxy": [
+        459,
+        252,
+        502,
+        298
+      ],
+      "bbox_normalized": [
+        0.9384765625,
+        0.537109375,
+        0.083984375,
+        0.08984375
+      ],
+      "yolo_format": "9 0.938477 0.537109 0.083984 0.089844"
+    },
+    {
+      "detection_id": 4,
+      "class_id": 0,
+      "class_name": "traffic_cone",
+      "phrase_detected": "a traffic _ cone",
+      "confidence": 0.4515033960342407,
+      "bbox_xyxy": [
+        23,
+        165,
+        75,
+        257
+      ],
+      "bbox_normalized": [
+        0.095703125,
+        0.412109375,
+        0.1015625,
+        0.1796875
+      ],
+      "yolo_format": "0 0.095703 0.412109 0.101562 0.179688"
+    },
+    {
+      "detection_id": 14,
+      "class_id": 0,
+      "class_name": "traffic_cone",
+      "phrase_detected": "a traffic _ cone",
+      "confidence": 0.2758972644805908,
+      "bbox_xyxy": [
+        13,
+        164,
+        94,
+        337
+      ],
+      "bbox_normalized": [
+        0.1044921875,
+        0.4892578125,
+        0.158203125,
+        0.337890625
+      ],
+      "yolo_format": "0 0.104492 0.489258 0.158203 0.337891"
+    },
+    {
+      "detection_id": 5,
+      "class_id": 2,
+      "class_name": "cardbox",
+      "phrase_detected": "##box pallet plastic _ box",
+      "confidence": 0.3784262239933014,
+      "bbox_xyxy": [
+        9,
+        338,
+        128,
+        506
+      ],
+      "bbox_normalized": [
+        0.1337890625,
+        0.82421875,
+        0.232421875,
+        0.328125
+      ],
+      "yolo_format": "2 0.133789 0.824219 0.232422 0.328125"
+    },
+    {
+      "detection_id": 6,
+      "class_id": 7,
+      "class_name": "monitor",
+      "phrase_detected": "monitor",
+      "confidence": 0.42700129747390747,
+      "bbox_xyxy": [
+        453,
+        69,
+        511,
+        226
+      ],
+      "bbox_normalized": [
+        0.94140625,
+        0.2880859375,
+        0.11328125,
+        0.306640625
+      ],
+      "yolo_format": "7 0.941406 0.288086 0.113281 0.306641"
+    },
+    {
+      "detection_id": 8,
+      "class_id": 11,
+      "class_name": "robotic_arm",
+      "phrase_detected": "robotic _ arm",
+      "confidence": 0.44146236777305603,
+      "bbox_xyxy": [
+        249,
+        345,
+        316,
+        396
+      ],
+      "bbox_normalized": [
+        0.5517578125,
+        0.7236328125,
+        0.130859375,
+        0.099609375
+      ],
+      "yolo_format": "11 0.551758 0.723633 0.130859 0.099609"
+    },
+    {
+      "detection_id": 7,
+      "class_id": 11,
+      "class_name": "robotic_arm",
+      "phrase_detected": "a robotics lab",
+      "confidence": 0.338374525308609,
+      "bbox_xyxy": [
+        0,
+        1,
+        511,
+        509
+      ],
+      "bbox_normalized": [
+        0.4990234375,
+        0.498046875,
+        0.998046875,
+        0.9921875
+      ],
+      "yolo_format": "11 0.499023 0.498047 0.998047 0.992188"
+    },
+    {
+      "detection_id": 13,
+      "class_id": 11,
+      "class_name": "robotic_arm",
+      "phrase_detected": "robotic plier hammer",
+      "confidence": 0.33167341351509094,
+      "bbox_xyxy": [
+        292,
+        323,
+        351,
+        369
+      ],
+      "bbox_normalized": [
+        0.6279296875,
+        0.67578125,
+        0.115234375,
+        0.08984375
+      ],
+      "yolo_format": "11 0.627930 0.675781 0.115234 0.089844"
+    },
+    {
+      "detection_id": 9,
+      "class_id": 4,
+      "class_name": "bottle",
+      "phrase_detected": "traffic bottle",
+      "confidence": 0.28591006994247437,
+      "bbox_xyxy": [
+        53,
+        68,
+        126,
+        241
+      ],
+      "bbox_normalized": [
+        0.1748046875,
+        0.3017578125,
+        0.142578125,
+        0.337890625
+      ],
+      "yolo_format": "4 0.174805 0.301758 0.142578 0.337891"
+    },
+    {
+      "detection_id": 10,
+      "class_id": 5,
+      "class_name": "vase",
+      "phrase_detected": "vase",
+      "confidence": 0.3947697877883911,
+      "bbox_xyxy": [
+        433,
+        148,
+        464,
+        177
+      ],
+      "bbox_normalized": [
+        0.8759765625,
+        0.3173828125,
+        0.060546875,
+        0.056640625
+      ],
+      "yolo_format": "5 0.875977 0.317383 0.060547 0.056641"
+    },
+    {
+      "detection_id": 11,
+      "class_id": 12,
+      "class_name": "cup",
+      "phrase_detected": "cup",
+      "confidence": 0.354402631521225,
+      "bbox_xyxy": [
+        158,
+        235,
+        205,
+        292
+      ],
+      "bbox_normalized": [
+        0.3544921875,
+        0.5146484375,
+        0.091796875,
+        0.111328125
+      ],
+      "yolo_format": "12 0.354492 0.514648 0.091797 0.111328"
+    },
+    {
+      "detection_id": 15,
+      "class_id": 1,
+      "class_name": "fire_extinguisher",
+      "phrase_detected": "fire _ extinguisher",
+      "confidence": 0.30039602518081665,
+      "bbox_xyxy": [
+        53,
+        67,
+        125,
+        241
+      ],
+      "bbox_normalized": [
+        0.173828125,
+        0.30078125,
+        0.140625,
+        0.33984375
+      ],
+      "yolo_format": "1 0.173828 0.300781 0.140625 0.339844"
+    }
+  ],
+  "nms_stats": {
+    "boxes_before": 16,
+    "boxes_after": 15,
+    "boxes_suppressed": 1,
+    "method": "adaptive_nms",
+    "strategy": "adaptive_high"
+  },
+  "threshold_info": {
+    "box_threshold": 0.2,
+    "text_threshold": 0.25,
+    "min_confidence": 0.25
+  },
+  "adapted": false,
+  "timestamp": "2025-11-30T22:06:53.313586"
+}

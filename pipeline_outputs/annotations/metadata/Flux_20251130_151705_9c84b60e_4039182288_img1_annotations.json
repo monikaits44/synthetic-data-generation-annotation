@@ -1,0 +1,68 @@
+{
+  "image_path": "output/synthetic_data/generated_images/Flux_20251130_151705_9c84b60e_4039182288_img1.png",
+  "image_name": "Flux_20251130_151705_9c84b60e_4039182288_img1",
+  "image_size": {
+    "width": 512,
+    "height": 512
+  },
+  "caption_mode": "basic",
+  "detection_caption": "traffic cone. fire extinguisher. cardbox. pallet. bottle. vase. chair. monitor. plastic box. shoe. apple. robotic arm. cup. screw driver. plier. hammer.",
+  "num_detections": 2,
+  "detections_before_nms": 2,
+  "detections": [
+    {
+      "detection_id": 1,
+      "class_id": 0,
+      "class_name": "traffic_cone",
+      "phrase_detected": "traffic cone",
+      "confidence": 0.7855785489082336,
+      "bbox_xyxy": [
+        121,
+        57,
+        388,
+        478
+      ],
+      "bbox_normalized": [
+        0.4970703125,
+        0.5224609375,
+        0.521484375,
+        0.822265625
+      ],
+      "yolo_format": "0 0.497070 0.522461 0.521484 0.822266"
+    },
+    {
+      "detection_id": 2,
+      "class_id": 1,
+      "class_name": "fire_extinguisher",
+      "phrase_detected": "fire extinguisher",
+      "confidence": 0.6199104189872742,
+      "bbox_xyxy": [
+        3,
+        115,
+        119,
+        340
+      ],
+      "bbox_normalized": [
+        0.119140625,
+        0.4443359375,
+        0.2265625,
+        0.439453125
+      ],
+      "yolo_format": "1 0.119141 0.444336 0.226562 0.439453"
+    }
+  ],
+  "nms_stats": {
+    "boxes_before": 2,
+    "boxes_after": 2,
+    "boxes_suppressed": 0,
+    "method": "adaptive_nms",
+    "strategy": "adaptive_high"
+  },
+  "threshold_info": {
+    "box_threshold": 0.2,
+    "text_threshold": 0.25,
+    "min_confidence": 0.25
+  },
+  "adapted": false,
+  "timestamp": "2025-11-30T15:17:59.001093"
+}

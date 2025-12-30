@@ -1,0 +1,128 @@
+{
+  "image_path": "output/synthetic_data/generated_images/Flux_20251130_212846_5b33da4b_3776046213_img1.png",
+  "image_name": "Flux_20251130_212846_5b33da4b_3776046213_img1",
+  "image_size": {
+    "width": 512,
+    "height": 512
+  },
+  "caption_mode": "json",
+  "detection_caption": "side view shoe, plastic box, and wooden pallet stacked in robotics lab",
+  "num_detections": 5,
+  "detections_before_nms": 6,
+  "detections": [
+    {
+      "detection_id": 1,
+      "class_id": 3,
+      "class_name": "pallet",
+      "phrase_detected": "wooden pallet",
+      "confidence": 0.5269593000411987,
+      "bbox_xyxy": [
+        56,
+        372,
+        462,
+        480
+      ],
+      "bbox_normalized": [
+        0.505859375,
+        0.83203125,
+        0.79296875,
+        0.2109375
+      ],
+      "yolo_format": "3 0.505859 0.832031 0.792969 0.210938"
+    },
+    {
+      "detection_id": 2,
+      "class_id": 9,
+      "class_name": "shoe",
+      "phrase_detected": "side view shoe",
+      "confidence": 0.48238080739974976,
+      "bbox_xyxy": [
+        90,
+        143,
+        411,
+        289
+      ],
+      "bbox_normalized": [
+        0.4892578125,
+        0.421875,
+        0.626953125,
+        0.28515625
+      ],
+      "yolo_format": "9 0.489258 0.421875 0.626953 0.285156"
+    },
+    {
+      "detection_id": 3,
+      "class_id": 9,
+      "class_name": "shoe",
+      "phrase_detected": "side view shoe",
+      "confidence": 0.3526908755302429,
+      "bbox_xyxy": [
+        56,
+        143,
+        463,
+        479
+      ],
+      "bbox_normalized": [
+        0.5068359375,
+        0.607421875,
+        0.794921875,
+        0.65625
+      ],
+      "yolo_format": "9 0.506836 0.607422 0.794922 0.656250"
+    },
+    {
+      "detection_id": 5,
+      "class_id": 8,
+      "class_name": "plastic_box",
+      "phrase_detected": "plastic box",
+      "confidence": 0.5099900960922241,
+      "bbox_xyxy": [
+        111,
+        279,
+        399,
+        412
+      ],
+      "bbox_normalized": [
+        0.498046875,
+        0.6748046875,
+        0.5625,
+        0.259765625
+      ],
+      "yolo_format": "8 0.498047 0.674805 0.562500 0.259766"
+    },
+    {
+      "detection_id": 6,
+      "class_id": 11,
+      "class_name": "robotic_arm",
+      "phrase_detected": "robotics lab",
+      "confidence": 0.30770978331565857,
+      "bbox_xyxy": [
+        0,
+        1,
+        511,
+        511
+      ],
+      "bbox_normalized": [
+        0.4990234375,
+        0.5,
+        0.998046875,
+        0.99609375
+      ],
+      "yolo_format": "11 0.499023 0.500000 0.998047 0.996094"
+    }
+  ],
+  "nms_stats": {
+    "boxes_before": 6,
+    "boxes_after": 5,
+    "boxes_suppressed": 1,
+    "method": "adaptive_nms",
+    "strategy": "adaptive_high"
+  },
+  "threshold_info": {
+    "box_threshold": 0.2,
+    "text_threshold": 0.25,
+    "min_confidence": 0.25
+  },
+  "adapted": false,
+  "timestamp": "2025-11-30T21:32:04.319193"
+}

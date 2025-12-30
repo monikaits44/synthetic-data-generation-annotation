@@ -1,0 +1,17 @@
+{
+    "entry_uuid": "b3b43d82-605d-4d87-bd26-0774812aabff",
+    "image_index": 1,
+    "prompt": "traffic cone in industrial lab",
+    "model": "Flux",
+    "aspect_ratio": "1:1",
+    "width": 512,
+    "height": 512,
+    "generation_seed": 3725190078,
+    "file_format": "PNG",
+    "guidance_scale": 3.5,
+    "num_inference_steps": 30,
+    "timestamp": "20251130_112317",
+    "image_filename": "Flux_20251130_112317_b3b43d82_3725190078_img1.png",
+    "device": "cuda",
+    "torch_dtype": "torch.float16"
+}
