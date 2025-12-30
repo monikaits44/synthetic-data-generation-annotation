@@ -1,0 +1,16 @@
+0 : traffic_cone
+1 : fire_extinguisher
+2 : cardbox
+3 : pallet
+4 : bottle
+5 : vase
+6 : chair
+7 : monitor
+8 : plastic_box
+9 : shoe
+10 : apple
+11 : robotic_arm
+12 : cup
+13 : screw_driver
+14 : plier
+15 : hammer

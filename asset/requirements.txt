@@ -1,0 +1,30 @@
+# Core Dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Generation
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
+safetensors>=0.3.1
+huggingface-hub>=0.16.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# LLM Integration
+ollama>=0.1.0
+tiktoken>=0.5.0
+
+# Object Detection (Grounding DINO dependencies)
+# Note: Install Grounded-SAM-2 separately as per README
+
+# Utilities
+python-dateutil>=2.8.2
+tqdm>=4.65.0
+
+# Optional but recommended
+xformers>=0.0.20  # For memory-efficient attention
