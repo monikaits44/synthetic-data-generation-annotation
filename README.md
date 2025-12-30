@@ -6,6 +6,8 @@ An end-to-end pipeline that combines Large Language Models (LLMs), Diffusion Mod
 
 ![End to End Flow](asset/End%20to%20End%20Flow.png)
 
+**Demo:** Watch the pipeline in action: [Video Demo](https://vimeo.com/1150418975?share=copy&fl=sv&fe=ci)
+
 ## Getting Started
 
 This repository contains an end-to-end multimodal AI pipeline for synthetic data generation and automatic annotation.  
