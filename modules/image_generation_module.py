@@ -30,7 +30,7 @@ class GenerationConfig:
     )
     
     # Hugging Face authentication (if needed)
-    HUGGINGFACE_TOKEN = "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"
+    HUGGINGFACE_TOKEN = "hf_YOUR_HUGGINGFACE_TOKEN"
     
     # Output directory
     OUTPUT_BASE_DIR = "pipeline_outputs/generated_images"
